@@ -1,0 +1,174 @@
+.login-page {
+    width: 100%;
+    padding: 15% 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+  .login-page .login-form {
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    background: #FFFFFF;
+    opacity: 0;
+    width: 350px;
+    margin: 0 auto 20px;
+    padding: 15px; /* Adjust the padding as needed */
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .login-page .login-form label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .login-page .login-form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 2px solid transparent;
+    margin: 0 0 10px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: border 0.2s ease-in-out;
+  }
+  .login-page .login-form input:focus {
+    border: 2px solid #43A047;
+  }
+
+  .login-page .login-form p {
+    font-size: small;
+    color: rgb(119, 0, 0);
+    margin-left: 12px;
+    font-family: monospace;
+  }
+
+  .login-page .login-form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin: 35px auto; 
+    display: block;
+    outline: 0;
+    background: #4CAF50;
+    width: 50%;
+    border: 0;
+    padding: 12px; 
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 14px; 
+    font-weight: bold;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+
+  .login-page .login-form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+  }
+  .login-page .login-form .message {
+    margin: 20px 0 0;
+    color: #b3b3b3;
+    font-size: 14px;
+  }
+  .login-page .login-form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+
+  /* SignupComponent CSS */
+  /*------------------------------------------------------*/
+  .signup-page {
+    width: 100%;
+    padding: 15% 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .signup-page  .signup-form {
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    background: #FFFFFF;
+    width: 400px;
+    margin: 0 auto 20px;
+    padding: 15px; /* Adjust the padding as needed */
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  .signup-page  .signup-form label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .signup-page  .signup-form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 2px solid transparent;
+    margin: 0 0 10px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: border 0.2s ease-in-out;
+  }
+  
+  .signup-page  .signup-form input:focus {
+    border: 2px solid #43A047;
+  }
+
+  .signup-page .signup-form p {
+    font-size: small;
+    color: rgb(119, 0, 0);
+    margin-left: 12px;
+    font-family: monospace;
+  }
+  
+  .signup-page  .signup-form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin: 10px auto; 
+    display: block;
+    outline: 0;
+    background: #4CAF50;
+    width: 50%;
+    border: 0;
+    padding: 12px; 
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 14px; 
+    font-weight: bold;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  
+  .signup-page  .signup-form button:hover, .signup-form button:active, .signup-form button:focus {
+    background: #43A047;
+  }
+  
+  .signup-page  .signup-form .message {
+    margin: 10px 0 0;
+    color: #b3b3b3;
+    font-size: 14px;
+  }
+  
+  .signup-page .signup-form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
